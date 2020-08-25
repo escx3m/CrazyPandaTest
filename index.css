@@ -1,0 +1,50 @@
+.wrapper {
+    display: grid;
+    grid-template-areas: "slider textArea";
+    grid-template-columns: 1fr 1fr;
+}
+
+textarea {
+    width: 350px;
+    height: 80px;
+}
+button {
+    font-size: 14px;
+    padding: 15px;
+}
+.btn {
+    background-color: blue;
+    color: white;
+}
+
+.textGroupArea {
+    margin: 20px;
+    width: 400px;
+}
+
+#red,
+#green,
+#blue {
+    float: left;
+    clear: left;
+    width: 300px;
+    margin: 15px;
+}
+#red .ui-slider-range {
+    background: #ef2929;
+}
+#red .ui-slider-handle {
+    border-color: #ef2929;
+}
+#green .ui-slider-range {
+    background: #8ae234;
+}
+#green .ui-slider-handle {
+    border-color: #8ae234;
+}
+#blue .ui-slider-range {
+    background: #729fcf;
+}
+#blue .ui-slider-handle {
+    border-color: #729fcf;
+}
